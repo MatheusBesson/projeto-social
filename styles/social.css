@@ -1,0 +1,30 @@
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* para modificar a side-bar e esconder a mesma*/
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+        body img {
+            width: 100vw;
+        }
+
+        a {
+            display: block;
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-weight: bolder;
+            font-size: 2em;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: red;
+        }
